@@ -14,7 +14,7 @@ public class Product extends BaseModel {
 //    private long id; -> Moved to BaseModel class.
     private String title;
     private double price;
-    @ManyToOne(cascade = {CascadeType.PERSIST})
+    @ManyToOne(cascade = {CascadeType.ALL})
     private Category category; // EAGER FETCH
     private String description;
     private String image;
