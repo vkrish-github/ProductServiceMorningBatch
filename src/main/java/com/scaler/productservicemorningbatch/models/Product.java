@@ -18,6 +18,7 @@ public class Product extends BaseModel {
     private Category category; // EAGER FETCH
     private String description;
     private String image;
+    private int quantity;
 }
 
 /*
